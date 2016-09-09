@@ -28,7 +28,7 @@
   "scripts": {
     "build": "cake build",
     "prepublish": "npm run build",
-    "postinstall": "npm run build",
+    "install": "npm run build",
     "test": "npm run build && mocha"
   }
 }
