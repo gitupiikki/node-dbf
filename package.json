@@ -26,7 +26,7 @@
     "commander": "^2.9.0"
   },
   "scripts": {
-    "build": "cake build",
+    "build": "./node_modules/.bin/cake build",
     "prepublish": "npm run build",
     "install": "npm run build",
     "test": "npm run build && mocha"
