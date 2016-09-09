@@ -28,7 +28,6 @@
   "scripts": {
     "build": "./node_modules/coffee-script/bin/cake build",
     "prepublish": "npm run build",
-    "postinstall": "npm run build",
     "test": "npm run build && mocha"
   }
 }
