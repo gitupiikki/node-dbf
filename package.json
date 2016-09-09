@@ -1,6 +1,6 @@
 {
   "name": "node-dbf",
-  "version": "0.2.1",
+  "version": "0.2.1.1",
   "engines": {
     "node": ">=0.11.0"
   },
@@ -28,6 +28,7 @@
   "scripts": {
     "build": "cake build",
     "prepublish": "npm run build",
+    "postinstall": "npm run build",
     "test": "npm run build && mocha"
   }
 }
